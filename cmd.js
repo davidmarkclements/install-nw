@@ -8,7 +8,7 @@ var path = require('path');
 var semver = require('semver');
 
 var platform = process.platform === 'darwin' ? 'osx' : 
-  process.platform === 'win3' ? 'win' : process.platform;
+  process.platform === 'win32' ? 'win' : process.platform;
 
 var ext = platform === 'linux' ? '.tar.gz' : '.zip';
 
