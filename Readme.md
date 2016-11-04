@@ -53,18 +53,18 @@ See CLI `cache` argument for details
 ##### URL Base
 
 ```sh
-npm install --nwjs_urlbase=http://my.nwjs.repo/v
+npm install --nwjs_urlbase=https://my.nwjs.repo/v
 ```
 
 ```sh
-export NWJS_CACHE=http://my.nwjs.repo/v
+export NWJS_CACHE=https://my.nwjs.repo/v
 npm install
 ```
 
 This can also be added to an `.npmrc` file:
 
 ```
-nwjs_urlbase=http://my.nwjs.repo/v
+nwjs_urlbase=https://my.nwjs.repo/v
 ```
 
 See CLI `urlBase` argument for details
@@ -98,7 +98,7 @@ http://dl.nwjs.io/v
 This can be changed with a `--urlBase` argument:
 
 ```sh
-install-nw --urlBase http://my.nwjs.repo/v
+install-nw --urlBase https://my.nwjs.repo/v
 ```
 
 ### Programmatic

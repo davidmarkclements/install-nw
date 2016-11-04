@@ -74,7 +74,7 @@ function init(version) {
   var urlBase = argv.urlBase ||
     process.env.npm_config_nwjs_urlbase || 
     process.env.NWJS_URLBASE || 
-    'http://dl.nwjs.io/v';
+    'https://dl.nwjs.io/v';
 
   var filename = [
     'nwjs-v', v, '-',
